@@ -1,0 +1,90 @@
+.home {
+  background-image: url(../img/bg_hero_0.svg);
+  height: 880px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#container__home {
+  padding-top: 20vh;
+}
+#header__home {
+  margin-top: 15vh;
+}
+#img__home {
+  max-height: 560px;
+  min-width: 150px;
+}
+.navbar-floating {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
+}
+#btn-nav {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  background-color: rgb(25, 25, 179);
+  color: white;
+  border-radius: 20px;
+}
+#btn-nav:hover {
+  box-shadow: 0 4px 16px 1px darkblue;
+}
+
+#fa1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: orange;
+  padding: 15px;
+}
+
+#fa2 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  padding: 15px;
+}
+
+#fa3 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: purple;
+  padding: 15px;
+}
+.features {
+  padding-bottom: 100px;
+}
+
+.features2 {
+  padding-bottom: 100px;
+  height: 700px;
+}
+.pricing {
+  background-image: url(../img/pattern_1.svg);
+}
+.pricing-head {
+  margin-left: -10%;
+  padding-top: 46%;
+}
+#pricing-table-1 {
+  background-image: url(../img/pricing_pattern_grayscale.svg);
+  width: 300px;
+  height: 540px;
+  box-shadow: 0px 6px 10px 3px black;
+}
+#pricing-table-2 {
+  background-image: url(../img/pricing_pattern.svg);
+  width: 300px;
+  height: 540px;
+  box-shadow: 0px 6px 10px 3px black;
+}

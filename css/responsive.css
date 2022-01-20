@@ -1,0 +1,53 @@
+@media (min-width: 0px) and (max-width: 480px) {
+  #container__home {
+    padding-top: 0vh;
+  }
+  .features2 {
+    height: 1000px;
+  }
+}
+@media (min-width: 100.1px) and (max-width: 200px) {
+  #img__home {
+    min-width: 50px;
+    max-width: 130px;
+  }
+}
+@media (min-width: 356px) and (max-width: 400px) {
+  #img__home {
+    margin-top: 15vh;
+  }
+}
+@media (min-width: 400px) and (max-width: 450px) {
+  #img__home {
+    margin-top: 10vh;
+  }
+}
+@media (min-width: 0px) and (max-width: 400px) {
+  #container__home {
+    padding-top: 10vh;
+  }
+}
+@media (min-width: 0px) and (max-width: 160.1px) {
+  .navbar-brand {
+    font-size: 10px;
+  }
+  #img__home {
+    max-width: 70px;
+  }
+  #header__features__2 {
+    font-size: 24px;
+  }
+
+  #pricing-table-1 {
+    background-image: url(../img/pricing_pattern_grayscale.svg);
+    width: 100px;
+    height: 540px;
+    box-shadow: 0px 6px 10px 3px black;
+  }
+  #pricing-table-2 {
+    background-image: url(../img/pricing_pattern.svg);
+    width: 100px;
+    height: 540px;
+    box-shadow: 0px 6px 10px 3px black;
+  }
+}
